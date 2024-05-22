@@ -16,8 +16,15 @@ This enables users to remotly login from any machine that also has ssh on it or 
     <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/ssh.png" /> </br>
 
   - Generate the keys with the following command
-    <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/keygen.png" /> </br>
+    <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/keygen1.png" /> </br>
   - Copy the public key to your server
-    <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/copy.png" /> </br>
+   <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/copy.png" /> </br>
+  - start a basg shell with the following command
+   <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/bash.png" /> </br>
+  - Add the private key in memory such that you wont be typing your password for every login but rather until the session is ended
+   <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/add.png" /> </br>
+  - Start ssh with the command as follows
+  - ssh -p 22 192.168.2.3
+
 
   
