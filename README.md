@@ -5,4 +5,5 @@ This enables users to remotly login from any machine that also has ssh on it or 
 - First install ssh on the server if its not installed
 - 
 - configure its configuration file (/etc/ssh/sshd.conf) inorder to make the connection succefull
-- <br>     </br>
+- <br><img src="" />
+    </br>
