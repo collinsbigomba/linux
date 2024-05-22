@@ -9,10 +9,15 @@ This enables users to remotly login from any machine that also has ssh on it or 
   - configure its configuration file (/etc/ssh/sshd.conf) inorder to make the connection successfull
    <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/ssh3.png" /> </br>
     # Add some parameters to improve the security of your server
-  <br> -PermitRootLogin no </br>
-  <br> -passwordAuthentication no </bbr>
-  <br> -change your ssh port number to a different one </br>
-  <br> -pubkeyAuthentication yes inorder to enable key based authentication on your server </br>
-   <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/ssh.png" /> </br>
+   - PermitRootLogin no 
+   - passwordAuthentication no 
+   - change your ssh port number to a different one 
+   - pubkeyAuthentication yes inorder to enable key based authentication on your server 
+    <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/ssh.png" /> </br>
+
+  - Generate the keys with the following command
+    <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/keygen.png" /> </br>
+  - Copy the public key to your server
+    <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/copy.png" /> </br>
 
   
