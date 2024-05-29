@@ -28,5 +28,11 @@ This enables users to remotly login from any machine that also has ssh on it or 
 
 ## configuring ovpn
 
+## configuring searchsploit
+- searchsploit is a very good tool for pentesters because it enables you to search for exploits offline from the exploit database
+- For more information, consult its man page
+ <br><img src="https://github.com/collinsbigomba/linux/blob/main/images/bash.png" /> </br>
+
+
 
   
