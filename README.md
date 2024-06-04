@@ -1,7 +1,14 @@
 # linux
 ## Objective 
 ## Skills Obtained 
+- Searching for exploits using searchsploit
+- configuring ssh
+- Understanding the File Hierarchical System (FHS) which is very important to know in the linux world 
 ## Tools
+- openssh
+- ovpn
+- searchsploit
+- 
 ## Steps
 ## configuring ssh port 22
 This enables users to remotly login from any machine that also has ssh on it or putty inorder to access the server 
