@@ -6,7 +6,7 @@
 - Understanding the File Hierarchical System (FHS) which is very important to know in the linux world 
 ## Tools
 - openssh
-- ovpn
+- openvpn
 - searchsploit
 - 
 ## Steps
@@ -36,7 +36,12 @@ This enables users to remotly login from any machine that also has ssh on it or 
   - Start ssh with the command as follows
   - ssh -p 22 192.168.2.3
 
-## configuring ovpn
+## configuring openvpn
+- First install openvpn on your machine if its not installed 'apt install openvpn'
+- Then google for 'vpnbook' and download the zipped folder on your machine based on the country your in
+- Unzip the folder
+- Get to your network settings under the vpn section and import the unzipped folder
+- Choose any file you want to use and then specify the username and password which are on the 'vpnbook website' 
 
 ## configuring searchsploit
 - searchsploit is a very good tool for pentesters because it enables you to search for exploits offline from the exploit database
